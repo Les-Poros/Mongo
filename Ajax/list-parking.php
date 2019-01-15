@@ -1,7 +1,7 @@
 
 <?php
 require '../vendor/autoload.php';
-$client = new MongoDB\Client("mongodb://192.168.99.100:27017");
+include '../getMongo.php';
 
 $db = $client->map;
 
