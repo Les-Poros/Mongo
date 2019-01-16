@@ -12,7 +12,7 @@ Membres du projet :
 * Cloner le dépôt soit :
     - via SSH : git clone git@github.com:Les-Poros/Mongo.git
     - via HTTPS : git clone https://github.com/Les-Poros/Mongo.git
-* Aller dans le dossier créé et y lancer la commande : composer install
+* Aller dans le dossier créé et y lancer la commande : composer install --ignore-platform-reqs
 * Lancer le fichier getMongo.php dans un éditeur de texte en modifiant :
     - l'ip menant au mongo créé précédemment
     - le port menant au mongo créé précédemment
